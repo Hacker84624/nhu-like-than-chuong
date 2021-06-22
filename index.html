@@ -6,12 +6,32 @@
        <link rel="icon" type="imgage/png" href="https://upanh123.com/wp-content/uploads/2021/04/hinh-mat-cuoi-troll4.jpg?fbclid=IwAR34S2LkCH8_BkPm-8gQBmNY7wuou3iTEbAclGyNodoZNIkUZrHr0jhuI9Q"/>
        </head>
      <body>
-       <a href="doi-mau.html"> Chuyện Cười Đổi Màu</a>
-       </br>
-    <a href="ViSAOPHaIduNG.html">VÌ SAO PHẢI ĐỨNG?</a>
-     </br>
-  <a href="BoptrenBopduoi.html">BÓP TRÊN, BÓP DƯỚI…</a>
-  <br/>
-<a href="ngay-tho.html">Ngây Thơ</a>
+      <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "109217388074343");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
        </body>
+    </html>
        
